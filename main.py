@@ -18,4 +18,5 @@ data_list = []
 
 import pandas
 data = pandas.read_csv(filepath_or_buffer="weather_data.csv")
-print(data["temp"])
+# print(type(data))
+print(type(data["temp"]))
